@@ -1,0 +1,110 @@
+$mr: 20px;
+$font: 'Roboto', sans-serif;
+$blue: #4285F4;
+$red: #DB4437;
+$yellow: #F4B400;
+$green: #0F9D58;
+$blue-light: lighten($blue, 4%);
+$red-light: lighten($red, 4%);
+$yellow-light: lighten($yellow, 4%);
+$green-light: lighten($green, 4%);
+
+.blue {
+  color: $blue-light;
+}
+.red {
+  color: $red-light;
+}
+.yellow {
+  color: $yellow-light;
+}
+.green {
+  color: $green-light;
+}
+
+.underline:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.gs_button {
+  border: solid /*#e7e7e7*/#f8f8f8;
+  border-width: thin;
+  color: #797979;
+  background-color: #f8f8f8;
+  margin-top: 30px;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: $font;
+}
+
+.gs_button:hover {
+  border: solid #b2b2b2;
+  border-width: thin;
+  color: black;
+  background-color: #f8f8f8;
+  margin-top: 30px;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: $font;
+}
+
+.as_font_head {
+  color: $red;
+  font-family: $font;
+  font-size: 21px;
+  /*font-family:*/
+}
+
+.search_bar {
+  width: 570px;
+  border-radius: 20px;
+  outline: none;
+  height: 43px;
+  padding-left: 10px;
+  border: solid #e7e7e7 1px;
+}
+.search_bar:hover {
+  width: 570px;
+  border-radius: 20px;
+  outline: none;
+  height: 43px;
+  padding-left: 10px;
+  border: solid #e7e7e7 1px;
+  box-shadow: 0 0 5px 1px #e1e1e1;
+}
+
+.as_font_body {
+  font-family: $font;
+  font-weight: 300;
+  font-size: 13px;
+}
+.margin-right {
+  margin-right: $mr;
+}
+
+.images_sub {
+  position: relative;
+  top: -50px; left: 750px;
+  color: $blue;
+  font-family: $font;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
